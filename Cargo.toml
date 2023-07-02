@@ -3,4 +3,6 @@
 members = [
     "skill-up/console-io",
     "skill-up/console-io-without-extern-crate",
+    "overflow",
+    "immutable-reference",
 ]
