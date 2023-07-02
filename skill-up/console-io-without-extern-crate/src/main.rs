@@ -43,8 +43,9 @@ fn main() {
                 .expect("Can't find a row of numbers to be read");
             //println!("got row = {}", &a_row);
            
-            let p = 
-                    a_row.split_whitespace().map(|s| s.parse());
+            let p = a_row
+                        .split_whitespace()
+                        .map(|s| s.parse());
             let rvec: Result<Vec<i32>, _> = p.collect();
             //println!("rvec = {:#?}",&rvec);
             matrix.push(rvec.unwrap());
