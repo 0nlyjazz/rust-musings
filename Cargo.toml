@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "skill-up/console-io",
+    "skill-up/console-io-without-extern-crate",
+]
